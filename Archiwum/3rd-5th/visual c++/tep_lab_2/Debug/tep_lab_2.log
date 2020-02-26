@@ -1,0 +1,4 @@
+﻿  main.cpp
+main.obj : error LNK2019: nierozpoznany zewnętrzny symbol "public: void __thiscall CTable::v_mod_tab(class CTable *,int)" (?v_mod_tab@CTable@@QAEXPAV1@H@Z) przywołany w funkcji _main
+main.obj : error LNK2019: nierozpoznany zewnętrzny symbol "public: void __thiscall CTable::v_mod_tab(class CTable,int)" (?v_mod_tab@CTable@@QAEXV1@H@Z) przywołany w funkcji _main
+C:\Users\marda\Desktop\Dawid Studia\semestr 3.5\Semestr 3 p\TEP\tep_lab_2\Debug\tep_lab_2.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 2

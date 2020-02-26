@@ -1,0 +1,25 @@
+﻿  CTreeDynamic.cpp
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\algorithm(2051): error C2679: dwuargumentowy "==": nie znaleziono żadnego operatora, który przyjmuje prawostronny operand typu "const _Ty" (lub nie istnieje akceptowalna konwersja)
+          with
+          [
+              _Ty=std::vector<CNodeDynamic *,std::allocator<CNodeDynamic *>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(284): note: może to być „bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(278): note: lub       „bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(272): note: lub       „bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\system_error(266): note: lub       „bool std::operator ==(const std::error_code &,const std::error_code &) noexcept” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(331): note: lub       „bool std::operator ==(const std::exception_ptr &,std::nullptr_t) noexcept” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(326): note: lub       „bool std::operator ==(std::nullptr_t,const std::exception_ptr &) noexcept” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\exception(321): note: lub       „bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) noexcept” [znaleziono za pomocą wyszukiwania zależnego od argumentów]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\algorithm(2051): note: lub       "wbudowany operator==(CNodeDynamic *, CNodeDynamic *) języka C++"
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\algorithm(2051): note: podczas próby dopasowania listy argumentów "(CNodeDynamic *, const _Ty)"
+          with
+          [
+              _Ty=std::vector<CNodeDynamic *,std::allocator<CNodeDynamic *>>
+          ]
+  c:\users\dawid\desktop\dawid studia\semestr 3.5\semestr 3 p\tep\tep_lab5\tep_lab5\ctreedynamic.cpp(37): note: zobacz odwołanie do funkcji szablon; wystąpienie „_FwdIt std::remove<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::vector<_Ty,std::allocator<_Ty>>>(_FwdIt,const _FwdIt,const std::vector<_Ty,std::allocator<_Ty>> &)” jest kompilowane
+          with
+          [
+              _FwdIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<CNodeDynamic *>>>,
+              _Ty=CNodeDynamic *
+          ]
